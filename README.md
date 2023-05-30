@@ -13,7 +13,7 @@ This project is a data pipeline consisting of many python scripts, that should m
 First of, you need to ensure that all the dependencies are installed, the recomended action is to install all packages of the ```requirements.txt``` into an virtual environment or into a docker container.
 
 ##### Setup Oracle Database
-In the github code files I included the Oracle database DSL as the file ```db_setup.dls```, you need to load this dsl into an already working Oracle database, this way all the tables, procedures and views necessary for the webscraping to work will be generated into the database.
+In the github code files I included the Oracle database DDL as the file ```db_setup.sql```, you need to load this dsl into an already working Oracle database, this way all the tables, procedures and views necessary for the webscraping to work will be generated into the database.
 
 ### Running
 
